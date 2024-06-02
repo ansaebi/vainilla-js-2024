@@ -1,0 +1,36 @@
+.hidden {
+  display: none;
+}
+
+#greeting,
+#clock,
+#weather,
+#todo:first-child,
+#todo-list {
+  color: #fffafa;
+}
+
+body {
+  font-family: "Karla";
+  width: 600px;
+  height: 600vh;
+}
+
+.box,
+.box2 {
+  position: relative;
+  margin: 50px auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 7px;
+}
+
+.box input,
+.box button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box">
+      <form class="hidden" id="login-form">
+        <div id="login">
+          <input type="text" placeholder="ID" required />
+          <button>Log In</button>
+        </div>
+      </form>
+    </div>
+    <div class="box2">
+      <h1 id="greeting" class="hidden"></h1>
+      <h2 id="clock"></h2>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <form class="hidden" id="todo-form">
+        <div id="todo">
+          <span>What is your main goal for today?</span>
+          <input type="text" placeholder=>
+        </div>
+      </form>
+      <ul class="hidden" id="todo-list"></ul>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
